@@ -148,7 +148,7 @@ export default function DeveloperSection() {
           </div>
 
           {/* Stats Bar */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 border-t border-white/10">
+          <div className="grid grid-cols-3 gap-4 pt-4 border-t border-white/10">
             <div>
               <span className="text-xl sm:text-2xl font-mono font-bold text-white">
                 {stats.commits}
@@ -166,15 +166,9 @@ export default function DeveloperSection() {
               </span>
             </div>
             <div>
-              <span className="text-xl sm:text-2xl font-mono font-bold text-white">99.8%</span>
+              <span className="text-xl sm:text-2xl font-mono font-bold text-emerald-400">99.8%</span>
               <span className="block text-[10px] font-mono text-neutral-500 uppercase mt-0.5">
                 Build Success
-              </span>
-            </div>
-            <div>
-              <span className="text-xl sm:text-2xl font-mono font-bold text-emerald-400">0</span>
-              <span className="block text-[10px] font-mono text-neutral-500 uppercase mt-0.5">
-                Open Regressions
               </span>
             </div>
           </div>
