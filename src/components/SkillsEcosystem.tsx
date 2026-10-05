@@ -62,13 +62,6 @@ const SKILL_DATA: SkillItem[] = [
 
   // BACKEND & DATABASE
   {
-    name: "PHP",
-    category: "BACKEND & DATABASE",
-    level: "Advanced",
-    description: "Server-side rendering, session management, REST endpoints, and MySQL interfacing.",
-    connections: ["MySQL", "JavaScript", "Render"],
-  },
-  {
     name: "Node.js",
     category: "BACKEND & DATABASE",
     level: "Proficient",
@@ -80,7 +73,7 @@ const SKILL_DATA: SkillItem[] = [
     category: "BACKEND & DATABASE",
     level: "Proficient",
     description: "Relational database schema normalization, indexing, joins, and SQL queries.",
-    connections: ["PHP", "PostgreSQL"],
+    connections: ["Node.js", "PostgreSQL"],
   },
   {
     name: "PostgreSQL",
@@ -184,7 +177,7 @@ const SKILL_DATA: SkillItem[] = [
     category: "DEPLOYMENT",
     level: "Proficient",
     description: "Fullstack web service hosting, background workers, and PostgreSQL managed databases.",
-    connections: ["PHP", "Node.js"],
+    connections: ["GitHub", "Node.js"],
   },
   {
     name: "Netlify",

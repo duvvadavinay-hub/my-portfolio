@@ -148,7 +148,7 @@ export default function DeveloperSection() {
           <div className="flex flex-col gap-3.5">
             {[
               { name: "JavaScript / TypeScript", pct: "42%", color: "bg-rose-500" },
-              { name: "PHP / Backend", pct: "25%", color: "bg-indigo-400" },
+              { name: "Node.js / Backend", pct: "25%", color: "bg-indigo-400" },
               { name: "Python / Data", pct: "18%", color: "bg-emerald-400" },
               { name: "HTML / Modern CSS", pct: "15%", color: "bg-amber-400" },
             ].map((lang) => (

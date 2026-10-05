@@ -68,7 +68,7 @@ export const PROJECTS: Project[] = [
     id: "csd-csit-dept",
     number: "02",
     title: "CSD-CSIT Department Website",
-    category: "Department Website / UI/UX / PHP",
+    category: "Department Website / UI/UX / Fullstack",
     role: "Frontend & UI/UX Developer",
     year: "2026",
     liveUrl: "https://srkrcsdcsit.in/",
@@ -82,8 +82,8 @@ export const PROJECTS: Project[] = [
     designProcess:
       "Focused on clean typography, responsive layout hierarchy, high contrast readability, and accessible navigation.",
     development:
-      "Built with HTML5, CSS3, JavaScript, and PHP with MySQL database integration for managing dynamic notices and department updates.",
-    technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "MySQL", "UI/UX Design"],
+      "Built with HTML5, CSS3, JavaScript, and MySQL database integration for managing dynamic notices and department updates.",
+    technologies: ["JavaScript", "HTML5", "CSS3", "MySQL", "UI/UX Design"],
     metrics: [
       { label: "Deployment", value: "Production Live" },
       { label: "Experience", value: "Modern UI/UX" },

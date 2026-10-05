@@ -16,7 +16,6 @@ const ROW_1 = [
 ];
 
 const ROW_2 = [
-  "PHP",
   "PYTHON",
   "NODE.JS",
   "MYSQL",
