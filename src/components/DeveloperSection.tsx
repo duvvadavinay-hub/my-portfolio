@@ -98,7 +98,7 @@ export default function DeveloperSection() {
               </span>
             </div>
             <span className="text-xs font-mono text-neutral-400">
-              Active Commits in 2024–2026
+              Active Commits in 2025–2026
             </span>
           </div>
 
